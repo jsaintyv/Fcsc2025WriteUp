@@ -4,7 +4,9 @@
 
 
 # Description
+
 Cette première épreuve consiste simplement à réaliser une génération de clef RSA en assembleur de façon à sastisfaire les tests. On demande de générer les valeurs suivantes :
+
 ``` 
     p et q
 
@@ -16,10 +18,12 @@ Cette première épreuve consiste simplement à réaliser une génération de cl
 
     N = p * q, exactement de la taille en bits donnée en entrée.
 ```
+
 La machine virtuelle est initialisée avec un exposant public et une taille en bits.
 
 
 # Analyse & réalisation
+
 L'algorithme ci-dessous est naif & non-optimum.
 
 Je détermine p en partant d'un nombre aléatoire, je trouve le premier nombre premier en incrémentant de 1.
@@ -31,6 +35,7 @@ Je vérifie n = p*q à le nombre de bit attendu par n
 Ensuite, je déroule l'algo en m'assurant que le gcd(p-1, e) == 1 sinon je prends alors une autre pair de nombre premier.
 
 # Solution
+
 ```
 ; RB = e    , RD = n 
 start:      

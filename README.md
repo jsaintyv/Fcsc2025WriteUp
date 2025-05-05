@@ -35,10 +35,14 @@ docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 ## Write-ups
 
 [intro/Poete](poete/README.md)
+
 [intro/smolkkey](smolkkey/README.md)
 
+
 [misc/Ja4a4a4do0o0ore](ja4a4a4do0o0ore/README.md)
+
 [misc/Bergere](bergere/README.md)
+
 
 [sca-faults/No Divide Just Conquer 1/3](noDivideJustConquer/README.md)
 

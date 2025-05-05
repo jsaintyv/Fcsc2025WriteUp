@@ -7,23 +7,34 @@ Cet intro traite de l'algorithme RSA.
 
 # Le chiffrement RSA
 Le chiffrement RSA (Rivest-Shamir-Adleman) est un algorithme de cryptographie asymétrique largement utilisé pour sécuriser les communications.
+
 RSA utilise une paire de clés : une clé publique pour le chiffrement et une clé privée pour le déchiffrement. La sécurité de RSA repose sur la difficulté de factoriser de grands nombres entiers.
 Génération des clés
 
     Choix de deux nombres premiers distincts : p et q.
+
     Calcul du module : n=p×q
+
     Calcul de la fonction d'Euler : ϕ(n)=(p−1)×(q−1)
+
     Choix de l'exposant public : e tel que 1<e<ϕ(n) et e est premier avec ϕ(n).
+
     Calcul de l'exposant privé : d tel que d×e≡1mod  ϕ(n)d×e≡1modϕ(n).
+
 
 La clé publique est le couple (n,e) et la clé privée est le couple (n,d).
 
-*Chiffrement*
+
+### *Chiffrement*
+
 Pour chiffrer un message mm (où mm est un entier tel que 0≤m<n0≤m<n) :
+
 c=(m^e) %  n
 
-*Déchiffrement*
+###  *Déchiffrement*
+
 Pour déchiffrer le texte chiffré cc :
+
 m=(c^d) % n
 
 
