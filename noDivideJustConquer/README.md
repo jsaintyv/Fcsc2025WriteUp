@@ -5,20 +5,27 @@
 
 # Description
 Cette première épreuve consiste simplement à réaliser une génération de clef RSA en assembleur de façon à sastisfaire les tests. On demande de générer les valeurs suivantes :
-
+``` 
     p et q
-    iq tel que q * iq = 1 mod p
-    dp et dq, tels que e * dp = 1 mod (p - 1) et e * dq = 1 mod (q - 1)
-    d tel que e * d = 1 mod phi(N)
-    N = p * q, exactement de la taille en bits donnée en entrée.
 
+    iq tel que q * iq = 1 mod p
+
+    dp et dq, tels que e * dp = 1 mod (p - 1) et e * dq = 1 mod (q - 1)
+
+    d tel que e * d = 1 mod phi(N)
+
+    N = p * q, exactement de la taille en bits donnée en entrée.
+```
 La machine virtuelle est initialisée avec un exposant public et une taille en bits.
 
 
 # Analyse & réalisation
 L'algorithme ci-dessous est naif & non-optimum.
+
 Je détermine p en partant d'un nombre aléatoire, je trouve le premier nombre premier en incrémentant de 1.
-Je déduis un q avec q = n / p puuis j'incrémente q jusqu'à trouver un nombre premier valide.
+
+Je déduis un q avec q = n / p puis j'incrémente q jusqu'à trouver un autre nombre premier valide.
+
 Je vérifie n = p*q à le nombre de bit attendu par n
 
 Ensuite, je déroule l'algo en m'assurant que le gcd(p-1, e) == 1 sinon je prends alors une autre pair de nombre premier.
