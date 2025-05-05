@@ -1,10 +1,11 @@
 # France Cyber Security Challenge 2025
-
 As every year, ANSSI organizes a competition for the selection of the French team for the European Cybersecurity Challenge (ECSC)
 
-I usually participate in this competition because it's the one that allows me to work on all my skills.
+I'm too old to be in the french team but i usually participate in this competition because it's the one that allows me to work on all my skills.
+
 Every year, I try to improve my ranking.
 
+In this repository, you will found tools i use in forensics challenge and some writeup
 
 ## Tools
 
@@ -33,15 +34,13 @@ docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 
 ## Write-ups
 
-[Ja4a4a4do0o0ore](ja4a4a4do0o0ore/README.md)
+[intro/Poete](poete/README.md)
+[intro/smolkkey](smolkkey/README.md)
 
-[Poete](poete/README.md)
+[misc/Ja4a4a4do0o0ore](ja4a4a4do0o0ore/README.md)
+[misc/Bergere](bergere/README.md)
 
-[Bergere](bergere/README.md)
-
-[smolkkey](smolkkey/README.md)
-
-[No Divide Just Conquer 1/3](noDivideJustConquer/README.md)
+[sca-faults/No Divide Just Conquer 1/3](noDivideJustConquer/README.md)
 
 
 ## Ranking & scores
@@ -49,3 +48,7 @@ docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 ![Scoring](scoring.png)
 
 ![Summary](summary.png)
+
+## Thanks
+
+Thank you to all the ANSSI teams for this great competition.
