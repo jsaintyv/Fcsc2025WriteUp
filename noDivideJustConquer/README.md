@@ -1,6 +1,6 @@
 # No Divide Just Conquer 1/3
 
-![No Divide Just Conquer 1/3](https://hackropole.fr/fr/challenges/hardware/fcsc2025-hardware-no-divide-just-conquer-1/) 
+[No Divide Just Conquer 1/3](https://hackropole.fr/fr/challenges/hardware/fcsc2025-hardware-no-divide-just-conquer-1/) 
 
 
 # Description

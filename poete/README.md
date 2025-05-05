@@ -1,6 +1,6 @@
 # Poète
 
-![Subject](https://hackropole.fr/fr/challenges/hardware/fcsc2025-hardware-proof-of-elapsed-time/)
+[Subject](https://hackropole.fr/fr/challenges/hardware/fcsc2025-hardware-proof-of-elapsed-time/)
 
 The purpose of this test is to assess the ability to code in pseudo-assembly. The difficulty of the test lies in imposing a maximum size for the machine code.
 

@@ -10,16 +10,6 @@ Every year, I try to improve my ranking.
 
 Below is a subset of the tools used in this CTF
 
-Some tools are installed in container which could be found in tools folder
-![Ghidra](https://ghidra-sre.org/) 
-A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
-
-![Volatility3](https://github.com/volatilityfoundation/volatility3)  
-The volatile memory extraction framework
-
-![binwalk](https://packages.debian.org/search?keywords=binwalk)  
-Binwalk
-
 You can find these tools & others in the docker image located in the tools folder
 
 ```bash
@@ -27,8 +17,16 @@ cd tools
 docker-compose up --build
 ```
 
+Other tools
 
-An other usefull image is :
+[Ghidra](https://ghidra-sre.org/) 
+A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
+
+[Volatility3](https://github.com/volatilityfoundation/volatility3)  
+The volatile memory extraction framework
+
+
+[SageMath](https://www.sagemath.org/)
 ```bash
 docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 ```

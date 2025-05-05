@@ -1,6 +1,6 @@
 # Smölkkey 
 
-![Smölkkey](https://hackropole.fr/fr/challenges/crypto/fcsc2025-crypto-smolkkey/) 
+[Smölkkey](https://hackropole.fr/fr/challenges/crypto/fcsc2025-crypto-smolkkey/) 
 
 Cet intro traite de l'algorithme RSA.
 

@@ -1,7 +1,7 @@
 
 # Bergere
 
-![Il était une bergère](https://hackropole.fr/fr/challenges/misc/fcsc2025-misc-il-etait-une-bergere/) 
+[Il était une bergère](https://hackropole.fr/fr/challenges/misc/fcsc2025-misc-il-etait-une-bergere/) 
 
 
 L'analyse du code montre qu'il faut calculer la racine carré d'un nombre *e*.
