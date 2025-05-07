@@ -4,9 +4,9 @@
 
 The goal is to identify an interactive connection among SSH connections with certificate
 
-A first script allow me to separate each communication by ip
-It use tcpdump to extract a list of ip
-tshark to decode usefull information in session SSH.
+A first script allow me to separate each communication by ip.
+It use tcpdump to extract a list of ip.
+I use tshark to decode usefull information in session SSH.
 
 ```bash
 FILEPCAP=ja4a4a4do0o0re-ssh.pcap
@@ -25,7 +25,7 @@ I quickly noticed that tshark did not allow me to identify the interactive SSH c
 A search tells me that it is not possible to identify interactive sessions from other sessions.
 So, the solution was to seek for a side-channel.
 
-Th code bellow dump by ip each frame size. 
+In the code bellow dump by ip each frame size. 
 
 ```bash
 python printFrameSize.py > frameSize.txt
@@ -35,7 +35,7 @@ With Visual Studio, i identify the first frame which is only different on one co
 
 ![Different](identifyDifferent.png)
 
-With, the first script, we can identify cookie in tshark result.
+Then with the first script we can identify the cookie in the tshark output in 172.28.1.23
 
 
 FLAG: FCSC{f24e0ff9dc4c1c005d5f3aaac4853575-90c7d30853db0f93bc8dad28c7b62b4d}

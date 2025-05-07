@@ -1,11 +1,12 @@
 # France Cyber Security Challenge 2025
-As every year, ANSSI organizes a competition for the selection of the French team for the European Cybersecurity Challenge (ECSC)
 
-I'm too old to be in the french team but i usually participate in this competition because it's the one that allows me to work on all my skills.
+Like every year, ANSSI organizes a competition to select the French team for the European Cybersecurity Challenge (CECS).
+
+I am too old and I definitely do not have the level to join the French team, but I regularly participate in this competition because it allows me to develop all my skills.
 
 Every year, I try to improve my ranking.
 
-In this repository, you will found tools i use in forensics challenge and some writeup
+In these directories, you'll find the tools I use for the Forensics Challenge, as well as some articles.
 
 ## Tools
 
@@ -28,6 +29,7 @@ The volatile memory extraction framework
 
 
 [SageMath](https://www.sagemath.org/)
+
 ```bash
 docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 ```

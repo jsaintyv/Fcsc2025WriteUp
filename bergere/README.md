@@ -3,8 +3,8 @@
 
 [Il était une bergère](https://hackropole.fr/fr/challenges/misc/fcsc2025-misc-il-etait-une-bergere/) 
 
+Analysis of the code shows that the square root of a number e must be calculated.
 
-L'analyse du code montre qu'il faut calculer la racine carré d'un nombre *e*.
 ```python
 def test(code,e):
     c = Machine(code, e)
@@ -19,9 +19,8 @@ def test(code,e):
         exit()
 ```
 
-Il faut donc implémenter la racine carré entière en assembleur.
-C'est là qu'on comprend le nom de l'épreure car  il faut utiliser "Méthode de Héron" 
-
+We must therefore implement the integer square root in assembler.
+This is where the name of the test comes in, as it requires using the "Heron Method."
 
 Algorithme : Méthode de Héron pour calculer √n
 ```python
@@ -44,7 +43,7 @@ print(racine_entiere(10))  # Affiche 3 (car 3² ≤ 10 < 4²)
 
 ```
 
-En assembleur, on obtient ce code. 
+In assembler, we get this code.
 
 ``` 
 start:      ; 
@@ -79,5 +78,6 @@ exit:
     STP
 ```
 
-Une fois  le code compilé dans  le pseudo assembleur , on peut récupérer le flag:
+Once the code is compiled, we can retrieve the flag:
+
 FCSC{bdd5a8bcb20359f69f3999ba12c90e026c0961e441d0c6f1e23c952d51abc2b4}

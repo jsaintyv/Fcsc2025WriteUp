@@ -5,7 +5,7 @@
 
 # Description
 
-Cette première épreuve consiste simplement à réaliser une génération de clef RSA en assembleur de façon à sastisfaire les tests. On demande de générer les valeurs suivantes :
+This first test simply consists of initializing an RSA key pair in assembler in order to satisfy the tests. We ask to generate the following values:
 
 ``` 
     p et q
@@ -19,20 +19,20 @@ Cette première épreuve consiste simplement à réaliser une génération de cl
     N = p * q, exactement de la taille en bits donnée en entrée.
 ```
 
-La machine virtuelle est initialisée avec un exposant public et une taille en bits.
+The virtual machine is initialized with a public exponent and a size in bits.
 
 
-# Analyse & réalisation
+# Analysis & implementation
 
-L'algorithme ci-dessous est naif & non-optimum.
+The algorithm below is naive & non-optimal.
 
-Je détermine p en partant d'un nombre aléatoire, je trouve le premier nombre premier en incrémentant de 1.
+I determine p starting from a random number, I find the first prime number by incrementing by 1.
 
-Je déduis un q avec q = n / p puis j'incrémente q jusqu'à trouver un autre nombre premier valide.
+I deduce a q with q = n / p and then increment q until I find another valid prime number.
 
-Je vérifie n = p*q à le nombre de bit attendu par n
+I check n = p*q to be the number of bits expected by n
 
-Ensuite, je déroule l'algo en m'assurant que le gcd(p-1, e) == 1 sinon je prends alors une autre pair de nombre premier.
+Then I run the algorithm making sure that gcd(p-1, e) == 1 otherwise I take another pair of prime numbers.
 
 # Solution
 
