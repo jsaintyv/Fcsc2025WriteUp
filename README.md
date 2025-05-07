@@ -1,6 +1,6 @@
-# France Cyber Security Challenge 2025
+# France Cyber Security Challenge (FCSC) 2025
 
-Like every year, ANSSI organizes a competition to select the French team for the European Cybersecurity Challenge (CECS).
+Like every year, ANSSI organizes a competition to select the French team for the [European Cybersecurity Challenge ECSC](https://ecsc.eu/).
 
 I am too old and I definitely do not have the level to join the French team, but I regularly participate in this competition because it allows me to develop all my skills.
 
